@@ -14,7 +14,7 @@ function Footer() {
 
     return (
         <footer
-            className="bg-gray-600 text-white relative"
+            className="bg-gray-600 text-black relative"
         // style={{
         //     backgroundImage: `url(${ImageBG})`,
         //     backgroundSize: 'contain',
@@ -24,12 +24,12 @@ function Footer() {
         //     backgroundPosition: 'center',
         // }}
         >
-            <div className="bg-gradient-to-t from-secondary to-dark bg-opacity-80 p-4 backdrop-blur-[2px]">
-                <div className="w-full mx-auto flex flex-col justify-center items-center p-6 text-sm sm:text-[16px] border border-gray-400 ">
+            <div className="bg-gradient-to-t from-secondary via-[#b0f1ff] to-primary bg-opacity-80 p-4 backdrop-blur-[2px]">
+                <div className="w-full mx-auto flex flex-col justify-center items-center p-6 text-sm sm:text-[16px] border-gray-400 ">
                     {/* Clinic Overview */}
                     <div className="w-full flex flex-col items-center mb-6" data-aos="fade-right">
-                        <h2 className="text-2xl md:text-4xl font-bold font-nunito mb-2 text-white uppercase tracking-wider text-center">
-                            SAI Bhathra TRAVELS
+                        <h2 className="text-2xl md:text-4xl font-bold font-nunito mb-2 text-black uppercase tracking-wider text-center">
+                            SAI Bathra TRAVELS
                         </h2>
                         <p className="text-center text-sm tracking-wider">
                             "Experience comfort and convenience on every mile with Sai Bathra Travels – your trusted travel partner!"
@@ -43,18 +43,18 @@ function Footer() {
                     >
                         {/* Quick Links with Icons */}
                         <div className="flex flex-col justify-center items-center mb-8 sm:mb-0 " data-aos="fade-right ">
-                            <h2 className="text-lg font-semibold mb-2 text-left text-primary">Quick Links</h2>
+                            <h2 className="text-lg font-semibold mb-2 text-left text-black">Quick Links</h2>
                             <ul className="space-y-2 flex flex-col lg:flex-row gap-4">
-                                <li className="flex items-center space-x-2 mt-2">
-                                    <FaHome className="text-primary" />
+                                <li className="flex items-center justify-center space-x-2 mt-2">
+                                    <FaHome className="text-black" />
                                     <a href="#">Home</a>
                                 </li>
-                                <li className="flex items-center space-x-2 ">
-                                    <IoGrid className="text-primary" />
+                                <li className="flex items-center justify-center space-x-2 ">
+                                    <IoGrid className="text-black" />
                                     <a href="#packages">Packages</a>
                                 </li>
-                                <li className="flex items-center space-x-2">
-                                    <BiSolidCommentEdit className="text-primary" />
+                                <li className="flex items-center justify-center space-x-2">
+                                    <BiSolidCommentEdit className="text-black" />
                                     <button
                                         onClick={() =>
                                             window.open(
@@ -72,7 +72,7 @@ function Footer() {
 
                         {/* Address and Timing */}
                         <div className="flex flex-col col-span-2 xs:col-span-1 justify-center items-center sm:justify-start sm:items-start" data-aos="fade-right ">
-                            <h2 className="text-lg font-semibold float-left mb-2 text-primary">Address</h2>
+                            <h2 className="text-lg font-semibold float-left mb-2 text-black">Address</h2>
                             <address className="sm:w-[300px] not-italic mb-2 text-center xs:text-left">
                                 19.gounder Thottam Rajaji Road, Old, Palani -Thoppampatti - Dharapuram Rd, Palani, Tamil Nadu 624601
                             </address>
@@ -82,8 +82,8 @@ function Footer() {
                     {/* Copyright Section */}
                     <div className="text-center mt-8">
                         <p className='text-xs sm:text-sm'>
-                            <span className="text-yellow-400">&copy; {new Date().getFullYear()} </span>
-                            Sai Bhathra Travels. All rights reserved.
+                            <span className="text-red-400">&copy; {new Date().getFullYear()} </span>
+                            Sai Bathra Travels. All rights reserved.
                         </p>
                     </div>
                 </div>

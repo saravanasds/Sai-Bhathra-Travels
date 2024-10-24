@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,20 +8,20 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="nav bg-white z-10 top-0 border-b-[1px] border-gray-700 py-2">
-            <div className="max-w-7xl mx-auto px-8">
-                <div className="flex items-center justify-between sm:py-3 py-2">
-                    <div className="flex items-center justify-between w-full">
-                        <div className="flex-shrink-0 text-[#070f4e]">
-                            {/* <img
-                                src={logo}
-                                alt="Logo"
-                                className="w-[90px] lg:w-[130px]"
-                            /> */}
-                            <h1 className="uppercase font-bold sm:text-2xl text-secondary tracking-wider">Sai Bhathra</h1>
-                        </div>
+        <nav className="nav bg-transparent absolute top-20 left-0 w-full z-10 py-4">
+            <div className="max-w-6xl mx-auto px-8">
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-center w-full">
+                        {/* <div className="flex-shrink-0">
+                            <h1
+                                className="uppercase font-bold sm:text-2xl lg:text-3xl text-white tracking-widest"
+                                style={{ textShadow: "2px 2px 1px black" }}
+                            >
+                                Sai Bathra
+                            </h1>
+                        </div> */}
                         <div className="hidden md:block font-bold text-md">
-                            <div className="ml-10 flex items-baseline space-x-8 uppercase tracking-wider text-gray-800">
+                            <div className="flex items-baseline space-x-8 uppercase tracking-wider text-black">
                                 <a href="#">Home</a>
                                 <a href="#packages">Packages</a>
                             </div>
@@ -31,7 +30,7 @@ const Navbar = () => {
                     <div className="-mr-2 flex md:hidden">
                         <button
                             onClick={toggleNavbar}
-                            className="inline-flex items-center justify-center p-2 rounded-md text-[#3E4095] hover:text-[#3E4095] hover:bg-white focus:outline-none"
+                            className="inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none"
                         >
                             {!isOpen ? (
                                 <svg

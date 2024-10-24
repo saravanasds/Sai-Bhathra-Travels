@@ -202,26 +202,17 @@ const Packages = () => {
   };
 
   return (
-    <div className="w-full min-h-screen mx-auto p-4 pb-10 lg:py-10 px-4 sm:px-10 relative overflow-hidden" id="packages">
-      <div
-        className=" absolute inset-0 bg-cover "
-        style={{
-          backgroundImage: `url(${Bg})`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          filter: "blur(0px)",
-        }}
-      ></div>
+    <div className="w-full min-h-screen mx-auto p-4 pb-10 lg:py-10 px-4 sm:px-10 relative overflow-hidden bg-gradient-to-t from-white via-[#d5f7ff] to-white" id="packages">
 
-      <h2 className="relative text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wider text-white py-3 lg:py-3 px-4 lg:px-8 mb-6 lg:mb-8 text-center rounded-lg uppercase z-10 bg-black bg-opacity-50">
+      <h2 className="relative text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wider text-secondary py-3 lg:py-3 px-4 lg:px-8 mb-6 lg:mb-8 text-center rounded-lg uppercase z-10 " style={{textShadow: "2px 2px 1px black"}}>
         Tour Packages - Palani
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 relative">
+      <div className="w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 relative">
         {gridItems.map((item) => (
           <div
             key={item.id}
-            className="relative bg-gray-50 shadow-md rounded overflow-hidden border border-secondary p-1 leading-8"
+            className="relative shadow-sm shadow-gray-500 rounded overflow-hidden p-1 leading-8 bg-white"
           >
             <div >
               <div className="relative w-full overflow-hidden">
@@ -259,7 +250,7 @@ const Packages = () => {
 
             <div className="w-full flex justify-center items-center mb-0 p-1">
               <button
-                className="w-full py-2 text-center lg:text-base text-sm font-semibold bg-gray-300 rounded text-black lg:hover:bg-green-500 transform transition-all tracking-wider flex justify-center items-center gap-4"
+                className="w-full py-2 text-center lg:text-base text-sm font-semibold bg-gray-300 rounded text-black lg:hover:bg-gray-400 transform transition-all tracking-wider flex justify-center items-center gap-4"
                 onClick={() => handleViewMoreClick(item)}
               >
                 View More
@@ -269,7 +260,7 @@ const Packages = () => {
             <a href="tel:+918072306324">
               <div className="w-full flex justify-center items-center mb-0 p-1">
                 <button
-                  className="w-full py-2 text-center lg:text-base text-sm font-semibold bg-blue-700 rounded text-white lg:hover:bg-blue-500 transform transition-all tracking-wider flex justify-center items-center gap-4"
+                  className="w-full py-2 text-center lg:text-base text-sm font-semibold bg-secondary rounded text-black lg:hover:bg-cyan-500 transform transition-all tracking-wider flex justify-center items-center gap-4"
                 >
                   Book Now
                 </button>
@@ -279,8 +270,8 @@ const Packages = () => {
           </div>
         ))}
 
-        <div className="bg-white rounded-[5px] border border-secondary flex flex-col justify-center items-center gap-4 p-6">
-          <div className="w-full border rounded-[5px] py-10 bg-gray-200">
+        <div className="bg-white rounded-[5px] flex flex-col justify-center items-center gap-4 p-6 border shadow-sm shadow-gray-500">
+          <div className="w-full border rounded-[5px] py-10 bg-secondary">
             <img src={Tempo} alt="traveller in palani" className="w-[80%] mx-auto" />
           </div>
           <h3 className="text-2xl font-semibold text-center">For Other Packages and More Information</h3>

@@ -29,10 +29,10 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="w-full bg-gradient-to-r from-light via-white to-light py-16 rounded-lg xl:px-20">
+    <section className="w-full py-16 rounded-lg xl:px-20">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-secondary sm:text-4xl">
+          <h2 className="text-3xl font-extrabold text-secondary sm:text-4xl tracking-wider" style={{textShadow: "2px 2px 1px black"}}>
             Why Choose Us?
           </h2>
           <p className="mt-4 text-lg text-blue-800">
@@ -45,13 +45,13 @@ const WhyChooseUs = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-gradient-to-b from-secondary to-dark shadow-lg rounded-lg p-6 text-center transition transform sm:hover:scale-105"
+              className="bg-gradient-to-t from-secondary to-primary shadow-lg rounded-lg p-6 text-center transition transform sm:hover:scale-105 border"
             >
               <div className="text-5xl">{feature.icon}</div>
-              <h3 className="mt-4 text-xl font-bold text-primary">
+              <h3 className="mt-4 text-xl font-bold text-black">
                 {feature.title}
               </h3>
-              <p className="mt-2 text-light">{feature.description}</p>
+              <p className="mt-2 text-black">{feature.description}</p>
             </div>
           ))}
         </div>

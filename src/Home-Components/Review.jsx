@@ -13,7 +13,7 @@ const Review = () => {
         {
             author_name: 'Jayasimha Gokana',
             rating: 5,
-            text: 'Sai Bhathra travels has extended an excellent service to my family members who were comprise of only ladies (four) from Andhra Pradesh. We hv booked a vehicle for 5 days, the vehicle condition was good and drivers behaviour was excellent. Infact, my family members forced me to give them a best review because of their outstanding service Thank you Sanjith',
+            text: 'Sai Bathra travels has extended an excellent service to my family members who were comprise of only ladies (four) from Andhra Pradesh. We hv booked a vehicle for 5 days, the vehicle condition was good and drivers behaviour was excellent. Infact, my family members forced me to give them a best review because of their outstanding service Thank you Sanjith',
             date: '4 months ago',
         },
         {
@@ -31,8 +31,8 @@ const Review = () => {
     ];
 
     return (
-        <div className="w-full bg-white p-4 py-6 md:py-10">
-            <h2 className="text-2xl sm:text-4xl font-semibold mb-4 text-center md:py-8 text-secondary">Customer Reviews</h2>
+        <div className="w-full bg-white p-4 py-6 md:py-10 mb-10 bg-gradient-to-t from-white via-[#c2f4ff] to-white">
+            <h2 className="text-2xl sm:text-4xl font-semibold mb-4 text-center md:py-8 text-secondary tracking-wider" style={{textShadow: "2px 2px 1px black"}}>Customer Reviews</h2>
 
             <Swiper
                 spaceBetween={30}
@@ -49,7 +49,7 @@ const Review = () => {
                 {reviews.map((review, index) => (
                     <SwiperSlide key={index}>
                         <div className="w-full md:w-[80%] mx-auto border-gray-300 text-center py-6 md:py-10 px-10">
-                            <p className="font-bold mb-2">{review.author_name}</p>
+                            <p className="font-bold mb-2 text-xl ">{review.author_name}</p>
                             <p className='mb-2'>{'⭐'.repeat(review.rating)}</p>
                             <p className='mb-2'>{review.text}</p>
                             <p className="text-sm text-gray-500">

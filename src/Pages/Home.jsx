@@ -4,13 +4,12 @@ import Hero from "../Home-Components/Hero";
 import AboutTravels from "../Home-Components/AboutTravel";
 import Packages from "../Home-Components/Packages";
 import WhyChooseUs from "../Home-Components/WhyChooseUs";
-import Banner from "../Home-Components/Banner";
+// import Banner from "../Home-Components/Banner";
 import { Helmet } from "react-helmet-async";
 import Review from "../Home-Components/Review";
 
 
 const Home = () => {
-  // Scroll to the top of the page when the component is mounted
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -29,7 +28,7 @@ const Home = () => {
           content="travel, tours, affordable travel packages, customizable tours, experienced guides, adventure, vacation"
         />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Sai Bhathra" />
+        <meta name="author" content="Sai Bathra" />
         <link rel="canonical" href="https://yourwebsite.com/home" />
       </Helmet>
 
@@ -37,7 +36,7 @@ const Home = () => {
       <AboutTravels />
       <Packages />
       <WhyChooseUs />
-      <Banner />
+      {/* <Banner /> */}
       <Review />
     </div>
   );
