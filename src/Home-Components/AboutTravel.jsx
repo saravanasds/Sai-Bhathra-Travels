@@ -46,8 +46,8 @@ const AboutTravels = () => {
           {/* Call to Action Button */}
           <div className="mt-8">
             <a
-              href="/contact" // Replace with the actual contact link
-              className="inline-block bg-[#FACC15] text-white tracking-wider text-sm sm:text-base lg:text-lg px-8 py-3 sm:px-10 sm:py-4 rounded-xl shadow-xl hover:bg-secondary hover:text-white transition-all duration-300 ease-in-out transform   hover:scale-105 font-bold"
+              href="tel:+918072306324" // Replace with the actual contact link
+              className="inline-block bg-secondary text-white tracking-wider text-sm sm:text-base lg:text-lg px-8 py-3 sm:px-10 sm:py-4 rounded-xl shadow-xl hover:bg-secondary hover:text-white transition-all duration-300 ease-in-out transform   hover:scale-105 font-bold"
             >
               Contact Us
             </a>
