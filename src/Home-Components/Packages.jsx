@@ -204,7 +204,7 @@ const Packages = () => {
   return (
     <div className="w-full min-h-screen mx-auto p-4 pb-10 lg:py-10 px-4 sm:px-10 relative overflow-hidden bg-gradient-to-t from-white via-[#d5f7ff] to-white" id="packages">
 
-      <h2 className="relative text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wider text-secondary py-3 lg:py-3 px-4 lg:px-8 mb-6 lg:mb-8 text-center rounded-lg uppercase z-10 " style={{textShadow: "2px 2px 1px black"}}>
+      <h2 className="relative text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wider text-secondary py-3 lg:py-3 px-4 lg:px-8 mb-6 lg:mb-8 text-center rounded-lg uppercase z-10 " style={{ textShadow: "2px 2px 1px black" }}>
         Tour Packages - Palani
       </h2>
 
@@ -322,11 +322,13 @@ const Packages = () => {
                     </p> : ""}
                 </div>
               </div>
-              <button
-                className="mt-4 w-full bg-green-700 text-white py-2 rounded hover:bg-green-600"
-              >
-                Book Now
-              </button>
+              <a href="tel:+918072306324">
+                <button
+                  className="mt-4 w-full bg-green-700 text-white py-2 rounded hover:bg-green-600">
+                  Book Now
+                </button>
+              </a>
+
             </div>
 
 
