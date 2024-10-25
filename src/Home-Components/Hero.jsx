@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../assets/sai Bathra travels.png";
+import Img from "../assets/sai Bathra travels.jpg";
 
 const Hero = () => {
   return (
