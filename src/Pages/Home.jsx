@@ -7,6 +7,7 @@ import WhyChooseUs from "../Home-Components/WhyChooseUs";
 // import Banner from "../Home-Components/Banner";
 import { Helmet } from "react-helmet-async";
 import Review from "../Home-Components/Review";
+import Map from "../Home-Components/Map";
 
 
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
       <WhyChooseUs />
       {/* <Banner /> */}
       <Review />
+      <Map />
     </div>
   );
 };

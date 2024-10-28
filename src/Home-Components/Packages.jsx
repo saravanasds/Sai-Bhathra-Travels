@@ -13,7 +13,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { GoPerson } from "react-icons/go";
 // import Offer from "../assets/offer.png";
 import { Link } from "react-router-dom";
-import Tempo from "../assets/tempo-traveller.png"
+import Tempo from "../assets/bathra-travels.png"
 import { GrClose } from "react-icons/gr";
 import Bg from "../assets/package-background1.jpg"
 import { TiPhoneOutline } from "react-icons/ti";
