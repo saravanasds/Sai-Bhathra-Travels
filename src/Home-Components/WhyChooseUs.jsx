@@ -32,10 +32,10 @@ const WhyChooseUs = () => {
     <section className="w-full py-16 rounded-lg xl:px-20">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-secondary sm:text-4xl tracking-wider" style={{textShadow: "2px 2px 1px black"}}>
+          <h2 className="text-3xl lg:text-5xl font-extrabold text-secondary sm:text-4xl tracking-wider font-caveat uppercase" style={{textShadow: "2px 2px 1px black"}}>
             Why Choose Us?
           </h2>
-          <p className="mt-4 text-lg text-blue-800">
+          <p className="mt-4 text-xl lg:text-3xl text-blue-800 font-caveat">
             Discover why we're the best choice for your next adventure! Our
             experienced guides, affordable travel packages, customizable tours, and 24/7 support make your journey unforgettable.
           </p>

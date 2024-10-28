@@ -33,17 +33,19 @@ const Topbar = () => {
 
                         {/* Right Side: Social Icons */}
                         <div className="flex items-center md:mt-0">
-                            <span className=" text-black mr-3 ">24x7 Support</span>
+                            {/* <span className=" text-black mr-3 ">24x7 Support</span> */}
                             
-                            <a href="#" className="text-black hover:text-black border-s-[1px] border-white px-2">
+                            <a href="#" className="text-black hover:text-black border-s-[1px] border-white px-1 sm:px-2">
                                 <FaInstagram className="w-4 h-4" />
                             </a>
-                            <a href="#" className="text-black hover:text-black border-x-[1px] border-white px-2">
+                            <a href="#" className="text-black hover:text-black border-x-[1px] border-white px-1 sm:px-2">
                                 <FaWhatsapp className="w-4 h-4" />
                             </a>
                             <div className="flex items-center gap-1 hover:text-black ml-3">
                                 <FaSquarePhone className="text-black w-4 h-4 rounded-full" />
-                                <p className="text-black  tracking-widest ">8072306324</p>
+                                <p className="text-black  tracking-widest ">8072306324,</p>
+                                <p className="text-black  tracking-widest ">7639265084</p>
+                                
                             </div>
                         </div>
                     </div>

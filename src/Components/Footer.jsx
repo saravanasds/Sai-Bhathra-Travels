@@ -28,7 +28,7 @@ function Footer() {
                 <div className="w-full mx-auto flex flex-col justify-center items-center p-6 text-sm sm:text-[16px] border-gray-400 ">
                     {/* Clinic Overview */}
                     <div className="w-full flex flex-col items-center mb-6" data-aos="fade-right">
-                        <h2 className="text-2xl md:text-4xl font-bold font-nunito mb-2 text-black uppercase tracking-wider text-center">
+                        <h2 className="text-2xl md:text-4xl font-extrabold font-nunito mb-2 text-black uppercase tracking-widest text-center font-caveat">
                             SAI Bathra TRAVELS
                         </h2>
                         <p className="text-center text-sm tracking-wider">
@@ -44,7 +44,7 @@ function Footer() {
                         {/* Quick Links with Icons */}
                         <div className="flex flex-col justify-center items-center mb-8 sm:mb-0 " data-aos="fade-right ">
                             <h2 className="text-lg font-semibold mb-2 text-left text-black">Quick Links</h2>
-                            <ul className="space-y-2 flex flex-col lg:flex-row gap-4">
+                            <ul className="space-y-2 flex flex-col lg:flex-row gap-4 mb-3">
                                 <li className="flex items-center justify-center space-x-2 mt-2">
                                     <FaHome className="text-black" />
                                     <a href="#">Home</a>
@@ -67,6 +67,7 @@ function Footer() {
                                     </button>
                                 </li>
                             </ul>
+                            <p className="text-black  tracking-widest ">8072306324, 7639265084</p>
                         </div>
 
 

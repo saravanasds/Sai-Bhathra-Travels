@@ -204,7 +204,7 @@ const Packages = () => {
   return (
     <div className="w-full min-h-screen mx-auto p-4 pb-10 lg:py-10 px-4 sm:px-10 relative overflow-hidden bg-gradient-to-t from-white via-[#d5f7ff] to-white" id="packages">
 
-      <h2 className="relative text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wider text-secondary py-3 lg:py-3 px-4 lg:px-8 mb-6 lg:mb-8 text-center rounded-lg uppercase z-10 " style={{ textShadow: "2px 2px 1px black" }}>
+      <h2 className="relative text-2xl sm:text-3xl lg:text-5xl font-bold tracking-widest text-secondary py-3 lg:py-3 px-4 lg:px-8 mb-6 lg:mb-8 text-center rounded-lg uppercase z-10 font-caveat" style={{ textShadow: "2px 2px 1px black" }}>
         Tour Packages - Palani
       </h2>
 
@@ -274,10 +274,12 @@ const Packages = () => {
           <div className="w-full border rounded-[5px] py-10 bg-secondary">
             <img src={Tempo} alt="traveller in palani" className="w-[80%] mx-auto" />
           </div>
-          <h3 className="text-2xl font-semibold text-center">For Other Packages and More Information</h3>
-          <a href="tel:+918072306324">
+          <h3 className="text-2xl lg:text-3xl font-semibold text-center font-caveat">For More Packages</h3>
+
+          {/* <a href="tel:+918072306324">
             <button className="bg-yellow-500 text-white px-6 py-2 rounded-full flex gap-2 justify-center items-center hover:bg-yellow-600">Call Us <TiPhoneOutline /></button>
-          </a>
+          </a> */}
+          <p className="text-black  tracking-widest font-bold text-center">8072306324, 7639265084</p>
         </div>
       </div>
 

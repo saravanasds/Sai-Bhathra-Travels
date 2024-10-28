@@ -19,6 +19,7 @@ export default {
       },
       fontFamily: {
         'bitter': ['Bitter', 'serif'], 
+        'caveat': ['Caveat', 'serif'], 
       },
     },
   },

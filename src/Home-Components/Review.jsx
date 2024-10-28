@@ -32,7 +32,7 @@ const Review = () => {
 
     return (
         <div className="w-full bg-white p-4 py-6 md:py-10 mb-10 bg-gradient-to-t from-white via-[#c2f4ff] to-white">
-            <h2 className="text-2xl sm:text-4xl font-semibold mb-4 text-center md:py-8 text-secondary tracking-wider" style={{textShadow: "2px 2px 1px black"}}>Customer Reviews</h2>
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-semibold mb-4 text-center md:py-8 text-secondary tracking-wider font-caveat uppercase" style={{textShadow: "2px 2px 1px black"}}>Customer Reviews</h2>
 
             <Swiper
                 spaceBetween={30}
