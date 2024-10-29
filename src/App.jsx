@@ -9,7 +9,6 @@ import Loading from './Components/Loading';
 
 // Lazy load the pages
 const Home = lazy(() => import('./Pages/Home'));
-const Contact = lazy(() => import('./Pages/Contact'));
 
 function App() {
   useEffect(() => {
@@ -26,7 +25,6 @@ function App() {
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact />} />
             </Route>
           </Routes>
         </Suspense>
