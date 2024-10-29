@@ -1,7 +1,6 @@
 import React from "react";
 import { MdLocationPin } from "react-icons/md";
-import { IoMdMail } from "react-icons/io";
-import { FaFacebookF, FaInstagram, } from "react-icons/fa";
+import { FaInstagram, } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaSquarePhone } from "react-icons/fa6";
 
@@ -16,9 +15,9 @@ const Topbar = () => {
                         <div className=" hidden xl:flex justify-center items-center md:gap-6">
                             <div className="hidden lg:flex items-center gap-1 text-black">
                                 <MdLocationPin className="text-black w-4 h-4 rounded-full " />
-                                <a href="#" className="text-black  tracking-wider">
-                                    19.gounder Thottam Rajaji Road, Old, Palani -Thoppampatti - Dharapuram Rd, Palani, Tamil Nadu 624601
-                                </a>
+                                <p className="text-black  tracking-wider">
+                                    Sai Bathra | Your Trusted Travel Partner in Palani
+                                </p>
                             </div>
                             {/* <div className="flex items-center gap-1 hover:text-black">
                                 <IoMdMail className="text-black w-4 h-4 rounded-full " />
@@ -35,14 +34,14 @@ const Topbar = () => {
                         <div className="flex items-center md:mt-0">
                             {/* <span className=" text-black mr-3 ">24x7 Support</span> */}
                             
-                            <a href="#" className="text-black hover:text-black border-s-[1px] border-white px-1 sm:px-2">
+                            {/* <a href="#" className="text-black hover:text-black border-s-[1px] border-black px-1 sm:px-2">
                                 <FaInstagram className="w-4 h-4" />
-                            </a>
-                            <a href="#" className="text-black hover:text-black border-x-[1px] border-white px-1 sm:px-2">
+                            </a> */}
+                            <a href="https://wa.me/917639265084?text=Hello%20Sir,%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener noreferrer" className="text-black hover:text-black border-x-[1px] border-black px-1 sm:px-2">
                                 <FaWhatsapp className="w-4 h-4" />
                             </a>
                             <div className="flex items-center gap-1 hover:text-black ml-3">
-                                <FaSquarePhone className="text-black w-4 h-4 rounded-full" />
+                                <FaSquarePhone className="text-black w-4 h-4 rounded-full mr-1" />
                                 <p className="text-black  tracking-widest ">8072306324,</p>
                                 <p className="text-black  tracking-widest ">7639265084</p>
                                 

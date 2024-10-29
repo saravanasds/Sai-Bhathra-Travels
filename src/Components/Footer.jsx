@@ -82,10 +82,14 @@ function Footer() {
 
                     {/* Copyright Section */}
                     <div className="text-center mt-8">
-                        <p className='text-xs sm:text-sm'>
-                            <span className="text-red-400">&copy; {new Date().getFullYear()} </span>
+                        <p className='text-xs sm:text-sm mb-1'>
+                            <span className="text-red-400 font-semibold">&copy; {new Date().getFullYear()} </span>
                             Sai Bathra Travels. All rights reserved.
                         </p>
+                        <a href='https://sdstechzone.in/' className='text-xs sm:text-sm  '>
+                            Designed by 
+                            <span className="text-blue-800 font-bold hover:underline"> SDS Technologies</span>
+                        </a>
                     </div>
                 </div>
             </div>
