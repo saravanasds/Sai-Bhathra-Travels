@@ -44,6 +44,18 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+
+  <!-- Conversion tracking script -->
+  <script>
+    function trackConversion() {
+      if (!sessionStorage.getItem('conversionTracked')) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-16752234082/hcmjCM_tmLcaEOKci7Q-'
+        });
+        sessionStorage.setItem('conversionTracked', 'true');
+      }
+    }
+  </script>
 </body>
 
 </html>

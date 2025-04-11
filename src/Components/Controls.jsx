@@ -44,7 +44,7 @@ function Controls() {
             </a>
 
             <a href="tel:+918072306324">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-md transform transition-all duration-500 hover:scale-110">
+                <button onClick={() => window.trackConversion()} className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-md transform transition-all duration-500 hover:scale-110">
                     <FaPhoneAlt className="text-white" size={24} />
                 </button>
             </a>

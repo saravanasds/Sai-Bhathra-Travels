@@ -260,6 +260,7 @@ const Packages = () => {
             <a href="tel:+918072306324">
               <div className="w-full flex justify-center items-center mb-0 p-1">
                 <button
+                  onClick={() => window.trackConversion()}
                   className="w-full py-2 text-center lg:text-base text-sm font-semibold bg-secondary rounded text-black lg:hover:bg-cyan-500 transform transition-all tracking-wider flex justify-center items-center gap-4"
                 >
                   Book Now
@@ -326,14 +327,13 @@ const Packages = () => {
               </div>
               <a href="tel:+918072306324">
                 <button
+                  onClick={() => window.trackConversion()}
                   className="mt-4 w-full bg-green-700 text-white py-2 rounded hover:bg-green-600">
                   Book Now
                 </button>
               </a>
 
             </div>
-
-
 
             <div className="absolute top-4 right-4">
               <button onClick={closePopup} className="text-xl"><GrClose /></button>
